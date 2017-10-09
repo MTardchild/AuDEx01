@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mtardix/CLionProjects/AuDEx01/Task1.cpp
+Task1.h
+/home/mtardix/CLionProjects/AuDEx01/Task1.h
+
+/home/mtardix/CLionProjects/AuDEx01/Task1.h
+
+/home/mtardix/CLionProjects/AuDEx01/Task2.cpp
+iostream
+-
+cstring
+-
+Task2.h
+/home/mtardix/CLionProjects/AuDEx01/Task2.h
+
+/home/mtardix/CLionProjects/AuDEx01/Task2.h
+
+/home/mtardix/CLionProjects/AuDEx01/main.cpp
+iostream
+-
+Task1.h
+/home/mtardix/CLionProjects/AuDEx01/Task1.h
+Task2.h
+/home/mtardix/CLionProjects/AuDEx01/Task2.h
+
