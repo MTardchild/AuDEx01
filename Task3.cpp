@@ -47,30 +47,36 @@ void Task3::input() {
 Task3 Task3::add(Task3* matrix) {
     if (isNotAddable(matrix)) return Task3(0, 0);
 
+    int operations = 0;
     Task3 addedMatrix(static_cast<int>(this->m), static_cast<int>(this->n));
 
     for (int i = 0; i < this->m; ++i) {
         for (int j = 0; j < this->n; ++j) {
             addedMatrix.matrix[i][j] = this->matrix[i][j] + matrix->matrix[i][j];
+            operations += 2;
         }
     }
 
+    cout << "Done Operations: " << operations << endl;
     return addedMatrix;
 }
 
 Task3 Task3::mult(Task3* matrix) {
     if (isNotMultipliable(matrix)) return Task3(0, 0);
 
+    int operations = 0;
     Task3 multipliedMatrix(static_cast<int>(this->m), static_cast<int>(matrix->n));
 
     for (int i = 0; i < this->m; ++i) {
         for (int j = 0; j < matrix->n; ++j) {
             for (int k = 0; k < this->n; ++k) {
                 multipliedMatrix.matrix[i][j] += this->matrix[i][k] * matrix->matrix[k][j];
+                operations += 5; // AccessEntries(2x), Multiply, StoreResult (2 ops, store and add)
             }
         }
     }
 
+    cout << "Done Operations: " << operations << endl;
     return multipliedMatrix;
 }
 
