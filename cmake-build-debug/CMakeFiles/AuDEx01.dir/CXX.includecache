@@ -22,6 +22,18 @@ Task2.h
 
 /home/mtardix/CLionProjects/AuDEx01/Task2.h
 
+/home/mtardix/CLionProjects/AuDEx01/Task3.cpp
+cstdlib
+-
+cstring
+-
+iostream
+-
+Task3.h
+/home/mtardix/CLionProjects/AuDEx01/Task3.h
+
+/home/mtardix/CLionProjects/AuDEx01/Task3.h
+
 /home/mtardix/CLionProjects/AuDEx01/main.cpp
 iostream
 -
@@ -29,4 +41,6 @@ Task1.h
 /home/mtardix/CLionProjects/AuDEx01/Task1.h
 Task2.h
 /home/mtardix/CLionProjects/AuDEx01/Task2.h
+Task3.h
+/home/mtardix/CLionProjects/AuDEx01/Task3.h
 

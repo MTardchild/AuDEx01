@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/mtardix/CLionProjects/AuDEx01/Task1.cpp" "/home/mtardix/CLionProjects/AuDEx01/cmake-build-debug/CMakeFiles/AuDEx01.dir/Task1.cpp.o"
   "/home/mtardix/CLionProjects/AuDEx01/Task2.cpp" "/home/mtardix/CLionProjects/AuDEx01/cmake-build-debug/CMakeFiles/AuDEx01.dir/Task2.cpp.o"
+  "/home/mtardix/CLionProjects/AuDEx01/Task3.cpp" "/home/mtardix/CLionProjects/AuDEx01/cmake-build-debug/CMakeFiles/AuDEx01.dir/Task3.cpp.o"
   "/home/mtardix/CLionProjects/AuDEx01/main.cpp" "/home/mtardix/CLionProjects/AuDEx01/cmake-build-debug/CMakeFiles/AuDEx01.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

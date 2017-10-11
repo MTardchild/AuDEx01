@@ -19,5 +19,7 @@ void Task2::sieve(int limit) {
     for (int i = 2; i < limit; ++i) {
         if (array[i]) cout << i << " ";
     }
+
+    cout << endl;
 }
 

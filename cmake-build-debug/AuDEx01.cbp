@@ -96,6 +96,12 @@
 		<Unit filename="/home/mtardix/CLionProjects/AuDEx01/Task2.h">
 			<Option target="AuDEx01"/>
 		</Unit>
+		<Unit filename="/home/mtardix/CLionProjects/AuDEx01/Task3.cpp">
+			<Option target="AuDEx01"/>
+		</Unit>
+		<Unit filename="/home/mtardix/CLionProjects/AuDEx01/Task3.h">
+			<Option target="AuDEx01"/>
+		</Unit>
 		<Unit filename="/home/mtardix/CLionProjects/AuDEx01/main.cpp">
 			<Option target="AuDEx01"/>
 		</Unit>

@@ -177,6 +177,33 @@ Task2.cpp.s:
 	$(MAKE) -f CMakeFiles/AuDEx01.dir/build.make CMakeFiles/AuDEx01.dir/Task2.cpp.s
 .PHONY : Task2.cpp.s
 
+Task3.o: Task3.cpp.o
+
+.PHONY : Task3.o
+
+# target to build an object file
+Task3.cpp.o:
+	$(MAKE) -f CMakeFiles/AuDEx01.dir/build.make CMakeFiles/AuDEx01.dir/Task3.cpp.o
+.PHONY : Task3.cpp.o
+
+Task3.i: Task3.cpp.i
+
+.PHONY : Task3.i
+
+# target to preprocess a source file
+Task3.cpp.i:
+	$(MAKE) -f CMakeFiles/AuDEx01.dir/build.make CMakeFiles/AuDEx01.dir/Task3.cpp.i
+.PHONY : Task3.cpp.i
+
+Task3.s: Task3.cpp.s
+
+.PHONY : Task3.s
+
+# target to generate assembly for a file
+Task3.cpp.s:
+	$(MAKE) -f CMakeFiles/AuDEx01.dir/build.make CMakeFiles/AuDEx01.dir/Task3.cpp.s
+.PHONY : Task3.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... Task2.o"
 	@echo "... Task2.i"
 	@echo "... Task2.s"
+	@echo "... Task3.o"
+	@echo "... Task3.i"
+	@echo "... Task3.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

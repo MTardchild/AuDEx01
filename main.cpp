@@ -1,22 +1,41 @@
 #include <iostream>
 #include "Task1.h"
 #include "Task2.h"
+#include "Task3.h"
 
 using namespace std;
 
 void task1();
 void task2();
+void task3();
 
 int main() {
     task1();
     task2();
+    task3();
 
     return 0;
 }
 
+void task3() {
+    Task3 matrix(3, 3);
+    Task3 anotherMatrix(3, 3);
+    matrix.randomize();
+    anotherMatrix.randomize();
+
+    matrix.print();
+    anotherMatrix.print();
+
+    Task3 added = matrix.add(&anotherMatrix);
+    added.print();
+
+    Task3 multiplied = matrix.mult(&anotherMatrix);
+    multiplied.print();
+}
+
 void task2() {
     Task2 task2;
-    task2.sieve(100000);
+    task2.sieve(100001);
 }
 
 void task1() {
@@ -31,7 +50,7 @@ void task1() {
         for (int j = 30; j < 41; ++j) {
             euclidIter = task1.euclid(i, j);
             leastComMul = task1.leastCommonMultiple(i, j);
-            cout << "ggT: " << euclidIter << endl << "kgV: " << leastComMul << endl << "a*b: " << i * j << endl;
+            cout << i << ", " << j << ": ggT: " << euclidIter << " kgV: " << leastComMul << " a*b: " << i * j << endl;
         }
     }
 }
