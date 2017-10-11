@@ -29,6 +29,10 @@ cstring
 -
 iostream
 -
+chrono
+-
+cmath
+-
 Task3.h
 /home/mtardix/CLionProjects/AuDEx01/Task3.h
 

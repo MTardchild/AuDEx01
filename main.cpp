@@ -18,19 +18,16 @@ int main() {
 }
 
 void task3() {
-    Task3 matrix(3, 3);
-    Task3 anotherMatrix(3, 3);
+    Task3 matrix(2000, 2000);
+    Task3 anotherMatrix(2000, 2000);
     matrix.randomize();
     anotherMatrix.randomize();
 
-    matrix.print();
-    anotherMatrix.print();
+    //matrix.print();
+    //anotherMatrix.print();
 
     Task3 added = matrix.add(&anotherMatrix);
-    added.print();
-
     Task3 multiplied = matrix.mult(&anotherMatrix);
-    multiplied.print();
 }
 
 void task2() {
